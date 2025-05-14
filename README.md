@@ -74,7 +74,7 @@ yarn
 yarn dev
 ```
 
-> A aplicação estará disponível em `http://localhost:5173` (ou similar)
+> A aplicação estará disponível em `http://localhost:5173`
 
 ---
 
