@@ -1,7 +1,8 @@
 import axios from "axios";
+import { BASE_URL } from "../api/base_url";
 
 const api = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: BASE_URL,
 });
 
 export const getAlunos = () => api.get("/alunos");
