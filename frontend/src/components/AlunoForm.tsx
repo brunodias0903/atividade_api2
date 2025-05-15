@@ -23,7 +23,7 @@ export function AlunoForm() {
       }
       reset();
       setErro("");
-    } catch (error: any) {
+    } catch (error: unknown) {
       if (axios.isAxiosError(error) && error.response?.data?.error) {
         setErro(error.response.data.error);
       } else {
