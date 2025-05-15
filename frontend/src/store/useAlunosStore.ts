@@ -1,10 +1,6 @@
 import { createAluno, deleteAluno, getAlunos, updateAluno } from "@/api/alunos";
+import type { Aluno } from "@/types/aluno";
 import { create } from "zustand";
-
-interface Aluno {
-  id: number;
-  nome: string;
-}
 
 interface AlunosState {
   alunos: Aluno[];
